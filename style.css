@@ -7,7 +7,7 @@
 }
 /* Navbar */
 .profile{
-   
+    margin-top: 41px;
     border-radius: 60px;
     width: 217px;
     height: 326px;
@@ -41,7 +41,8 @@
 }
 .description{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 76px;
 }
 .posts{
@@ -49,18 +50,32 @@
     height: 67px;
     background: #E5E5E5;
     border-radius: 16px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .follower{
     width: 100px;
     height: 67px;
     background: #E5E5E5;
     border-radius: 16px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .following{
     width: 100px;
     height: 67px;
     background: #E5E5E5;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .number{
     font-family: 'Montserrat',sans-serif;
@@ -87,29 +102,69 @@
     border-radius: 20px;
 }
 .gallery{
-   
-    margin-left: 20px;
-    margin-right: 24px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-content: center;
+    margin: 10px 17.5rem;
+    
     
 }
 .pic1{
-    margin-right: 20px;
+    
+    width: 299px;
+    height: 299px;
 }
-.pic4{
-    flex-grow: 2;
+.pic2{
+    
+    width: 629px;
+    height: 299px;
+}
+.pic3{
+    width: 627px;
+    height: 299px;
+}
+.tall{
+    /* width: 917px; */
+    height: 625px;
+    border-radius: 40px;
+   
 }
 .pic5{
-    margin-right: 20px;
+    width: 299px;
+    height: 299px;
+}
+.pic6{
+    width: 299px;
+    height: 299px;
+
 }
 
 .first-section{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin: 1rem 0;
 }
 .second-section{
     display: flex;
-    margin-bottom: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.second-section-first {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    /* max-width: 50rem; */
+    margin-right: 1.5rem;
+
+}
+/* .second-section-first */
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-top: 1.5rem;
 }
 
 
@@ -118,4 +173,6 @@ footer p{
     font-family:'Montserrat',sans-serif; 
     display: flex;
     justify-content: center;
+    margin-bottom: 58px;
+    margin-top: 65px;
 }
