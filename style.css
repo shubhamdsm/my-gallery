@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.profile{
+   
+    border-radius: 60px;
+    width: 217px;
+    height: 326px;
+    
+}
+.profile-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name h1{
+   
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4E5150;
+    
+}
+.profile-name h5{
+    font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    margin-bottom: 26px;
+
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 76px;
+}
+.posts{
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 16px;
+}
+.follower{
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 16px;
+}
+.following{
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 16px;
+}
+.number{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #4E5150;
+}
+.name{
+    width: 50px;
+    height: 14.24px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4E5150;
+
+}
+.pic{
+    border-radius: 20px;
+}
+.gallery{
+   
+    margin-left: 20px;
+    margin-right: 24px;
+    
+}
+.pic1{
+    margin-right: 20px;
+}
+.pic4{
+    flex-grow: 2;
+}
+.pic5{
+    margin-right: 20px;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.second-section{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+footer p{
+    font-family:'Montserrat',sans-serif; 
+    display: flex;
+    justify-content: center;
+}
